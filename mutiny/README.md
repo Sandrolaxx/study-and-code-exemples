@@ -40,4 +40,6 @@ Isso forma a parte de processamento do nosso pipeline, e então ao final realiza
 
 Essa última parte é essencial. Se você não fizer o **subscribe** nada vai acontecer! Os tipos do Mutiny são preguiçosos, se você não demonstrar interesse o fluxo não vai nem começar.
 
-**Nota:** *Caso seu programa não tenha feito nada, verifique se você não esqueceu do subscribe!*
+```shell script
+NOTA: Caso seu programa não tenha feito nada, verifique se você não esqueceu do subscribe!
+```
