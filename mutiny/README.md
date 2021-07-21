@@ -25,7 +25,7 @@ public class FirstProgram {
 
 ---
 
-## Passso a passo do pipeline
+## Passso a passo do fluxo
 
 O que é interessante é como essa mensagem é construída. Descrevemos um fluxo de processamento pegando um item, processando-o e finalmente consumindo-o.
 
@@ -40,6 +40,6 @@ Isso forma a parte de processamento do nosso pipeline, e então ao final realiza
 
 Essa última parte é essencial. Se você não fizer o **subscribe** nada vai acontecer! Os tipos do Mutiny são preguiçosos, se você não demonstrar interesse o fluxo não vai nem começar.
 
-```shell script
+```
 NOTA: Caso seu programa não tenha feito nada, verifique se você não esqueceu do subscribe!
 ```
