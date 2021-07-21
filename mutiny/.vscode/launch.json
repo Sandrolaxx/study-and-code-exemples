@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch FirstLinesOfCode",
+            "request": "launch",
+            "mainClass": "FirstLinesOfCode",
+            "projectName": "study-with-quarkus"
+        },
+        {
+            "type": "java",
+            "name": "Launch FIrstLinesOfCode",
+            "request": "launch",
+            "mainClass": "FIrstLinesOfCode",
+            "projectName": "study-with-quarkus"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hello_mutiny",
+            "request": "launch",
+            "mainClass": "Hello_mutiny",
+            "projectName": "study-with-quarkus"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "src.main.java.com.github.sandrolax.dfmicroservices.App",
+            "projectName": "dfmicroservices_86eb2a30"
+        }
+    ]
+}
